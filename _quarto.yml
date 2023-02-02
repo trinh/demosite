@@ -1,0 +1,18 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Test"
+  author: "Philippe H. Trinh"
+  date: "2022--23"
+  chapters:
+    - index.qmd
+
+format:
+  html:
+    theme: cosmo
+    fontsize: 1em
+    linestretch: 1.5
+
+callout-icon: false
